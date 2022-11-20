@@ -33,7 +33,7 @@ window.boot = function () {
             setLoadingDisplay();
         }
 
-        if (cc.sys.isMobile) {
+        if (cc.sys.isMobile || true) {
             if (settings.orientation === 'landscape') {
                 cc.view.setOrientation(cc.macro.ORIENTATION_LANDSCAPE);
             }
